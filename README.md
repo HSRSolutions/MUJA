@@ -1,4 +1,4 @@
-# mojo
+# MUJA
 A construction company website
 This company mainly operates in West Bengal, Jharkhand and Bihar. 
 This project must be get finished by 25th July 2020.
