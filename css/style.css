@@ -1,0 +1,288 @@
+nav{
+	background: #1e2d3b;
+	height: 6rem;
+}
+
+.nav-link{
+	color: white;
+	transition: transform .2s;
+}
+
+#logo{
+	width:18rem;
+	margin-left:-1rem;
+	position: relative;
+	background: yellow;
+	height: 6rem;
+}
+
+.nav-item{
+	width: 7rem;
+}
+
+a.active{
+	color: yellow;
+	font-size: 1.1rem;
+}
+
+
+#hsrVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top:0rem;
+  width: 100%;
+  height: auto;
+}
+
+nav a:hover{
+	color: yellow;
+	transform: scale(1.3);
+	font-weight: 500;
+}
+
+
+.hsrlayer{
+        background-color: rgba(0,0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 109%;
+    }
+
+.hsrCaption h1{
+	font-size: 3.5rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.5rem;
+	top: 13rem;
+	color: white;
+	width: 60%;
+	position: relative;
+}
+
+
+    .arrow {
+        text-align: center;
+        top:15rem;
+        position: relative;
+        transition: transform .2s;
+      }
+
+    .arrow a{
+        color: white;
+        font-size: 5rem;
+    }
+    .arrow a:hover{
+        text-decoration: none;
+        color:yellow;
+        transform: scale(1.3);
+    }
+      .bounce {
+        -moz-animation: bounce 2s infinite;
+        -webkit-animation: bounce 2s infinite;
+        animation: bounce 2s infinite;
+      }
+      
+      @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+          transform: translateY(0);
+        }
+        40% {
+          transform: translateY(-30px);
+        }
+        60% {
+          transform: translateY(-15px);
+        }
+      }
+ footer{
+  background: #1e2d3b;
+  top:35rem;
+  position: relative;
+  color: white;
+  padding: 1rem;
+ }
+
+ h4#footer_top{
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+ }
+
+ li{
+  list-style: none;
+ }
+
+ p#footer_content{
+  font-size: 1.1rem;
+  font-weight: 100;
+ }
+
+ .fa-map-marker{
+  font-size: 1.5rem; 
+}
+
+footer a{
+  color: white;
+}
+
+footer a:hover{
+  color: yellow;
+  text-decoration: none;
+}
+
+footer .fa{
+  color: #00ccff;
+}
+   
+
+footer .column1{
+  width: 25%;
+} 
+footer .column2{
+  width: 75%;
+}   
+footer .calendar{
+  border: 2px solid white;
+  padding: 0.3rem;
+  width: 80%;
+}
+
+footer p#hsrcalendar{
+  text-align: center;
+  padding: 0.4rem;
+  font-size: 1rem;
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
+
+}
+
+.fa-stack{
+  font-size: 2rem;
+}
+
+
+
+/*-------------*/
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+
+.social-network a.icoWhatsapp:hover {
+  background-color: #25D366;
+}
+
+.social-network a.icoInstagram:hover {
+  background-color: #e0218a;
+}
+
+
+
+.social-network a.icoEnvelope:hover {
+  background-color: #D44638;
+}
+
+
+
+
+
+.social-network a.icoYoutube:hover {
+  background-color: #c4302b ;
+}
+
+.social-network a.icoTwitter:hover {
+  background-color: #38A1F3;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoInstagram:hover i,
+.social-network a.icoWhatsapp:hover i,
+.social-network a.icoYoutube:hover i,
+.social-network a.icoTwitter:hover i{
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+
+#copyright{
+  bottom: 0;
+  top:35rem;
+  position: relative;
+  height: auto;
+  padding: 0.5rem;
+  background: black;
+}
+
+#copyright a:hover{
+  text-decoration:none;
+}
